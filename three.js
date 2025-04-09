@@ -28,4 +28,15 @@ function keyexists(obj){
 }
 console.log(keyexists(obj));
 
+let iskey = obj.hasOwnProperty('name');
+
+console.log(iskey);
+
+let iskeyin = 'name' in obj;
+
+console.log(iskeyin)
+
+
+
+
 
