@@ -15,3 +15,10 @@ const student = {
 const newObj = {...person, ...student};
 
 console.log(newObj);
+
+
+// The Object.assign() method copies all the enumerable properties 
+// of the given objects to a single object and returns it.
+const newAssign= Object.assign(person,student);
+
+console.log(newAssign);
